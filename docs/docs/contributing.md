@@ -125,7 +125,7 @@ cd web && npm run start
 To run the development server against a non-local instance, you will need to provide an environment variable, `SNOWPACK_PUBLIC_API_HOST` that tells the web application how to connect to the Frigate API:
 
 ```console
-cd web && SNOWPACK_PUBLIC_API_HOST=http://<ip-address-to-your-frigate-instance>:5000 npm run start
+cd web && SNOWPACK_PUBLIC_API_HOST=http://<ip-address-to-your-frigate-instance>:5000 npm run start:custom
 ```
 
 #### 4. Making changes
